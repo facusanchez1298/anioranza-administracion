@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anioranza chaquenia", "anioranza chaquenia\anioranza chaquenia.csproj", "{8502BF21-240E-4F9D-B02E-5A6B9D554595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControlLibrary", "WindowsFormsControlLibrary\WindowsFormsControlLibrary.csproj", "{FE5ED485-7F5F-47DD-8C4E-AB1EFEB93E66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8502BF21-240E-4F9D-B02E-5A6B9D554595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8502BF21-240E-4F9D-B02E-5A6B9D554595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8502BF21-240E-4F9D-B02E-5A6B9D554595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5ED485-7F5F-47DD-8C4E-AB1EFEB93E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5ED485-7F5F-47DD-8C4E-AB1EFEB93E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5ED485-7F5F-47DD-8C4E-AB1EFEB93E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5ED485-7F5F-47DD-8C4E-AB1EFEB93E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

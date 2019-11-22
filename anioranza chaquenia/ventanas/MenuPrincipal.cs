@@ -20,7 +20,7 @@ namespace anioranza_chaquenia
 
         private void buttonSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Dispose();
         }
 
         private void buttonAdministrador_Click(object sender, EventArgs e)
@@ -28,6 +28,12 @@ namespace anioranza_chaquenia
             Administrador administrador = new Administrador((sender as ButtonBase).Text);
             administrador.Show();
             this.Close();
+        }
+
+        private void ButtonAdministrar_Click(object sender, EventArgs e)
+        {
+            EditarUsuario editarUsuario = new EditarUsuario();
+            editarUsuario.Show();
         }
     }
 }

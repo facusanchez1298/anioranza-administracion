@@ -261,6 +261,7 @@
             this.buttonAdministrar.TabIndex = 2;
             this.buttonAdministrar.Text = "Administrar";
             this.buttonAdministrar.UseVisualStyleBackColor = true;
+            this.buttonAdministrar.Click += new System.EventHandler(this.ButtonAdministrar_Click);
             // 
             // MenuPrincipal
             // 
